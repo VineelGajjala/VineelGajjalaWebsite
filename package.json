@@ -13,6 +13,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue2-sidebar": "0.0.17",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {
