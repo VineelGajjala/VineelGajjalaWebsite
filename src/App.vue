@@ -1,7 +1,5 @@
 <template>
-
   <v-app>
-   <sideBarMake/>
    <router-view></router-view>
   </v-app>
 </template>

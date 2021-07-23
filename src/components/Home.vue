@@ -1,10 +1,10 @@
 <template lang='pug'>
   div
-    h1 Hello World!
+    h1 Home Page
 </template>
 
 <script>
   export default {
-    name: 'HelloWorld',
+    name: 'Home',
   }
 </script>
