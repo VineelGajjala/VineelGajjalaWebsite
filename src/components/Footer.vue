@@ -11,13 +11,13 @@
         <v-card-text>
           <v-btn
             v-for="(icon) in icons"
-            :key="icon"
+            :key="icon.img"
+            :href="icon.link"
             class="mx-4 black--text"
             icon
           >
-
             <v-icon size="24px">
-              {{ icon }}
+              {{ icon.img }}
             </v-icon>
           </v-btn>
         </v-card-text>
@@ -41,16 +41,22 @@
     name: 'Footer',
     data: () => ({
       icons: [
-        'mdi-facebook',
-        'mdi-github',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-      hyperlinks: [
-        "https://www.facebook.com/vineelreddy.gajjala",
-        "https://github.com/VineelGajjala",
-        "https://www.linkedin.com/in/vineel-gajjala/",
-        "https://www.instagram.com/vineelgajjala/?hl=en",
+        {
+          img: 'mdi-facebook',
+          link: "https://www.facebook.com/vineelreddy.gajjala"
+        },
+        {
+          img: 'mdi-github',
+          link: "https://github.com/VineelGajjala"
+        },
+        {
+          img: 'mdi-linkedin',
+          link: "https://www.linkedin.com/in/vineel-gajjala/"
+        },
+        {
+          img: 'mdi-instagram',
+          link: "https://www.instagram.com/vineelgajjala/?hl=en"
+        }
       ],
     }),
   }
