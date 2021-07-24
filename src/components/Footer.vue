@@ -56,7 +56,12 @@
         {
           img: 'mdi-instagram',
           link: "https://www.instagram.com/vineelgajjala/?hl=en"
-        }
+        },
+        {
+          img: 'mdi-laptop',
+          link: "https://leetcode.com/vineelgajjala/"
+        },
+
       ],
     }),
   }
