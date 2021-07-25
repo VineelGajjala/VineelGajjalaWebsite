@@ -1,10 +1,16 @@
-<template lang='pug'>
-  div
-    h1 Home Page
+<template>
+    <v-content>
+      <HomeCarousel/>
+    </v-content>
 </template>
 
 <script>
+import HomeCarousel from '../HomeCarousel';
   export default {
     name: 'Home',
+
+    components: {
+      HomeCarousel,
+    }
   }
 </script>
