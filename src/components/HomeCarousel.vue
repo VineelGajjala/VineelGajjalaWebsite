@@ -20,20 +20,16 @@
       return {
         items: [
           {
-            src: 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg',
+            src: 'https://previews.123rf.com/images/pratyaksa/pratyaksa1702/pratyaksa170200044/72923803-programming-or-coding-banner-flat-design-concept.jpg',
             title: "Computer Scientist"
           },
           {
-            src: 'https://cdn.vox-cdn.com/thumbor/pWwIaPWZmlnXHtCqrHrRb39O_-E=/0x0:2000x1233/1200x800/filters:focal(837x0:1157x320)/cdn.vox-cdn.com/uploads/chorus_image/image/65913277/lebron.0.jpg',
+            src: 'https://cdn.nohat.cc/thumb/f/720/a895646aafa64725969a.jpg',
             title: "Gamer"
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: 'https://static.vecteezy.com/system/resources/previews/000/199/306/original/slam-dunk-basketball-player-vector-flat-illustration.jpg',
             title: "Sports Enthusiast"
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-            title: "Aspiring Software Engineer"
           },
         ],
       }
