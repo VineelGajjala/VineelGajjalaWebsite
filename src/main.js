@@ -27,7 +27,7 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: Home },
-    { path: '/about', component: About },
+    { path: '/thisiscurrentlynotinuseandnooneshouldfindthis', component: About },
     { path: '/experience', component: Experience },
     { path: '/contact', component: Contact },
     { path: '/*', component: NotFound },

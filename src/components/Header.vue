@@ -17,10 +17,6 @@
       </v-btn>
 
       <v-btn text>
-        <router-link to = "/about">About</router-link>
-      </v-btn>
-
-      <v-btn text>
         <router-link to = "/experience">experience</router-link>
       </v-btn>
 
