@@ -1,11 +1,12 @@
 <template>
   <v-content>
     <div class="staticHero">
-      <v-img src="../assets/Vineel.jpg">
+      <v-img src="../../assets/vineel3.png">
       <v-row align="end" class="lightbox white--text pa-2 fill-height">
         <v-col>
           <v-container>
-            <div class="headline">Contact Me at gajjala.vineel@gmail.com !</div>
+            <h1>Contact Me at gajjala.vineel@gmail.com!</h1>
+            <h5>or via any of the social medias in the footer!</h5>
           </v-container>
         </v-col>
       </v-row>
@@ -23,7 +24,7 @@
       </v-container>
     </div>
     <div class="googlemap">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16705.802661855836!2d-0.14290489950731525!3d51.50711704027593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1577041400110!5m2!1sen!2suk" width="100%" height="450"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.3209627204856!2d-97.7362453853144!3d30.28492311412792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59b2584cfb7%3A0x8131ee4f174a21de!2sThe%20University%20of%20Texas%20at%20Austin!5e0!3m2!1sen!2sus!4v1630131190709!5m2!1sen!2sus" width="100%" height="450"></iframe>
     </div>
   </v-content>
 </template>
@@ -61,3 +62,19 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: text-bottom;
+  font-size: 40px;
+}
+
+h5 {
+  font-family: arial;
+  text-align: center;
+}
+
+</style>
