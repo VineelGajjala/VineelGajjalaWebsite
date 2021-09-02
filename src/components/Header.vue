@@ -15,14 +15,6 @@
       <v-btn text>
         <router-link to = "/">Home</router-link>
       </v-btn>
-
-      <v-btn text>
-        <router-link to = "/experience">experience</router-link>
-      </v-btn>
-
-      <v-btn text>
-        <router-link to = "/contact">Contact</router-link>
-      </v-btn>
     </v-app-bar>
   </v-container>
 </template>

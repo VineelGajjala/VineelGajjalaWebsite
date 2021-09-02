@@ -1,48 +1,50 @@
 <template>
-    <div class="heroBlock">
-      <h1> Hi! I'm Vineel Gajjala and welcome to my website!</h1>
-      <v-carousel hide-delimiters cycle :show-arrows="false">
-        <v-carousel-item
-          v-for="(item,i) in items"
-          :key="i"
-          :src="item.src"
-        >
-        </v-carousel-item>
-      </v-carousel>
-    </div>
+  <v-card
+    class="mx-auto"
+    max-width="1500"
+    outlined
+  >
+    <v-list-item three-line>
+      <v-col>
+        <v-img src="../assets/vineelAkka.jpeg"> </v-img>
+      </v-col>
+      <v-col>
+        Gajjala
+      </v-col>
+
+      
+
+
+    </v-list-item>
+
+  </v-card>
 </template>
 
 <script>
   export default {
-    name: 'HomeCarousel',
+    name: 'Cards',
 
     data () {
       return {
         items: [
           {
             src: require("../assets/Vineel.jpg"),
-            title: "Computer Scientist"
           },
           {
             src: require("../assets/UsainFUll.jpg"),
-            title: "Gamer"
           },
           {
             src: require("../assets/vineelAkka.jpeg"), //low quality image of me and akka
-            title: "Sports Enthusiast"
           },
            {
             src: require("../assets/vineelpaddles.png"),
-            title: "Sports Enthusiast"
           },
          
           {
             src: require("../assets/IMG_2690.jpg"),
-            title: "Sports Enthusiast"
           },
           {
             src: require("../assets/20200522_092126.jpg"),
-            title: "Sports Enthusiast"
           },
          
         ],
@@ -52,6 +54,7 @@
 </script>
 
 <style scoped>
+
 h1 {
   font-family: arial;
   font-weight: bold;
