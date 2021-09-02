@@ -1,12 +1,12 @@
 <template>
     <div class="heroBlock">
+      <h1> Hi! I'm Vineel Gajjala and welcome to my website!</h1>
       <v-carousel hide-delimiters cycle :show-arrows="false">
         <v-carousel-item
           v-for="(item,i) in items"
           :key="i"
           :src="item.src"
         >
-        <v-row class="title fill-height hidden-xs-only" align="center" justify="center">{{ item.title }}</v-row>
         </v-carousel-item>
       </v-carousel>
     </div>
@@ -20,19 +20,48 @@
       return {
         items: [
           {
-            src: 'https://previews.123rf.com/images/pratyaksa/pratyaksa1702/pratyaksa170200044/72923803-programming-or-coding-banner-flat-design-concept.jpg',
+            src: require("../assets/Vineel.jpg"),
             title: "Computer Scientist"
           },
           {
-            src: 'https://cdn.nohat.cc/thumb/f/720/a895646aafa64725969a.jpg',
+            src: require("../assets/UsainFUll.jpg"),
             title: "Gamer"
           },
           {
-            src: 'https://static.vecteezy.com/system/resources/previews/000/199/306/original/slam-dunk-basketball-player-vector-flat-illustration.jpg',
+            src: require("../assets/30821.jpeg"), //low quality image of me and akka
             title: "Sports Enthusiast"
           },
+           {
+            src: require("../assets/30902.jpeg"),
+            title: "Sports Enthusiast"
+          },
+         
+          {
+            src: require("../assets/IMG_2690.jpg"),
+            title: "Sports Enthusiast"
+          },
+          {
+            src: require("../assets/20200522_092126.jpg"),
+            title: "Sports Enthusiast"
+          },
+         
         ],
       }
     },
   }
 </script>
+
+<style scoped>
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+h5 {
+  font-family: arial;
+  text-align: center;
+}
+
+</style>
